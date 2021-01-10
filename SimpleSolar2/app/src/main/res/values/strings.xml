@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">SimpleSolar</string>
+
+    <string-array name="จัดหวัด">
+        <item>กรุงเทพมหานคร</item>
+        <item>กระบี่</item>
+        <item>กาญจนบุรี</item>
+        <item>กาฬสินธุ์</item>
+        <item>กำแพงเพชร</item>
+        <item>ขอนแก่น</item>
+        <item>จันทบุรี</item>
+        <item>ฉะเชิงเทรา</item>
+        <item>ชลบุรี</item>
+        <item>ชัยนาท</item>
+        <item>ชัยภูมิ</item>
+        <item>ชุมพร</item>
+        <item>เชียงราย</item>
+        <item>เชียงใหม่</item>
+        <item>ตรัง</item>
+        <item>ตราด</item>
+        <item>ตาก</item>
+        <item>นครนายก</item>
+        <item>นครปฐม</item>
+        <item>นครพนม</item>
+        <item>นครราชสีมา</item>
+        <item>นครศรีธรรมราช</item>
+        <item>นครสวรรค์</item>
+        <item>นนทบุรี</item>
+        <item>นราธิวาส</item>
+        <item>น่าน</item>
+        <item>บึงกาฬ</item>
+        <item>บุรีรัมย์</item>
+        <item>ปทุมธานี</item>
+        <item>ประจวบคีรีขันธ์</item>
+        <item>ปราจีนบุรี</item>
+        <item>ปัตตานี</item>
+        <item>พระนครศรีอยุธยา</item>
+        <item>พังงา</item>
+        <item>พัทลุง</item>
+        <item>พิจิตร</item>
+        <item>พิษณุโลก</item>
+        <item>เพชรบุรี</item>
+        <item>เพชรบูรณ์</item>
+        <item>แพร่</item>
+        <item>พะเยา</item>
+        <item>ภูเก็ต</item>
+        <item>มหาสารคาม</item>
+        <item>มุกดาหาร</item>
+        <item>แม่ฮ่องสอน</item>
+        <item>ยะลา</item>
+        <item>ยโสธร</item>
+        <item>ร้อยเอ็ด</item>
+        <item>ระนอง</item>
+        <item>ระยอง</item>
+        <item>ราชบุรี</item>
+        <item>ลพบุรี</item>
+        <item>ลำปาง</item>
+        <item>ลำพูน</item>
+        <item>เลย</item>
+        <item>ศรีสะเกษ</item>
+        <item>สกลนคร</item>
+        <item>สงขลา</item>
+        <item>สตูล</item>
+        <item>สมุทรปราการ</item>
+        <item>สมุทรสงคราม</item>
+        <item>สมุทรสาคร</item>
+        <item>สระแก้ว</item>
+        <item>สระบุรี</item>
+        <item>สิงห์บุรี</item>
+        <item>สุโขทัย</item>
+        <item>สุพรรณบุรี</item>
+        <item>สุราษฎร์ธานี</item>
+        <item>สุรินทร์</item>
+        <item>หนองคาย</item>
+        <item>หนองบัวลำภู</item>
+        <item>อ่างทอง</item>
+        <item>อุดรธานี</item>
+        <item>อุทัยธานี</item>
+        <item>อุตรดิตถ์</item>
+        <item>อุบลราชธานี</item>
+        <item>อำนาจเจริญ</item>
+    </string-array>
+
+    <string-array name="ประเภท">
+        <item>TV</item>
+        <item>พัดลม</item>
+        <item>เครื่องปรับอากาศ</item>
+        <item>ตู้เย็น</item>
+        <item>กระติกน้ำร้อน</item>
+        <item>ไมโครเวฟ</item>
+        <item>เครื่องปิ้งขนมปัง</item>
+        <item>คอมพิวเตอร์</item>
+        <item>เครื่องซักผ้า</item>
+        <item>หลอดไฟ</item>
+        <item>เครื่องทำน้ำอุ่น</item>
+        <item>เครื่องดูดฝุ่น</item>
+        <item>เตารีด</item>
+        <item>หม้อหุงข้าว</item>
+        <item>อุปกรณ์ชาร์จมือถือ</item>
+        <item>เครื่องเล่นDVD</item>
+    </string-array>
+
+    <string-array name="กำลังไฟ">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>95</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+        <item>150</item>
+        <item>170</item>
+        <item>180</item>
+        <item>200</item>
+        <item>250</item>
+        <item>270</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+        <item>550</item>
+        <item>600</item>
+        <item>650</item>
+        <item>700</item>
+        <item>750</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>1200</item>
+        <item>1500</item>
+        <item>1800</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>2700</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+    </string-array>
+
+    <string-array name="การใช้งาน">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="จำนวน">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="ขนาดแผง">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>200</item>
+        <item>250</item>
+        <item>340</item>
+    </string-array>
+
+    <string-array name="ขนาดแผงโซล่า">
+        <item>100x200 mm</item>
+        <item>540x510 mm</item>
+        <item>760x670 mm</item>
+        <item>1210x808 mm</item>
+        <item>1020x670 mm</item>
+        <item>1470x670 mm</item>
+        <item>1956x922 mm</item>
+        <item>1960x992 mm</item>
+        <item>1954x990 mm</item>
+        <item>2010x1095 mm</item>
+
+    </string-array>
+
+</resources>

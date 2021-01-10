@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity_main"
+    android:paddingLeft="30dp"
+    android:paddingTop="50dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="30dp"
+    android:scrollbars="vertical"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context=".ControlActivity">
+
+    <TextView
+        android:id="@+id/titleCont"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_title"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:text="Control Door"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bgCont"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_login"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleCont" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_login_button"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bgCont"
+        app:layout_constraintStart_toStartOf="@+id/bgCont"
+        app:layout_constraintTop_toBottomOf="@+id/profButton" />
+
+    <Button
+        android:id="@+id/profButton"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_login_button"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bgCont"
+        app:layout_constraintStart_toStartOf="@+id/bgCont"
+        app:layout_constraintTop_toBottomOf="@+id/controlButton" />
+
+    <Button
+        android:id="@+id/controlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_login_contr_button"
+        android:text="Control"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bgCont"
+        app:layout_constraintStart_toStartOf="@+id/bgCont"
+        app:layout_constraintTop_toTopOf="@+id/bgCont" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout></ScrollView>
